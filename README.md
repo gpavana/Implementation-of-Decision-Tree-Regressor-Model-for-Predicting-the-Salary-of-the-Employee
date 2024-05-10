@@ -1,13 +1,13 @@
-# Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
-
-## AIM:
+## Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
+### DATE:19.03.2024
+### AIM:
 To write a program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 
-## Equipments Required:
+### Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+### Algorithm
 1. Import the standard libraries
 2. Upload the dataset and check for any null values using .isnull() function
 3. Import LabelEncoder and encode the dataset
@@ -17,7 +17,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 7. Predict the values of array
 8. 8.Apply to new unknown values
 
-## Program:
+### Program:
 ```
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: PAVANA.G
@@ -52,18 +52,18 @@ plt.figure(figsize=(20, 8))
 plot_tree(dt, feature_names=x.columns, filled=True)
 plt.show()
 ```
-## Output:
-## HEAD VALUES:
+### Output:
+### HEAD VALUES:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/cc9e8bea-cd57-4744-9433-5396a59cde3e)
-## INFO:
+### INFO:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/39067b5b-a7c7-4b0c-8fdb-7acaba347fc0)
-## CONVERTING CATEGORICAL VALUES INTO NUMERICAL VALUES:
+### CONVERTING CATEGORICAL VALUES INTO NUMERICAL VALUES:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/5491d6db-e4a1-44e9-9685-bf45f0653cd7)
-## MEAN SQUARED ERROR:
+### MEAN SQUARED ERROR:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/34c8a444-7e07-4a42-9bd2-ec59404af529)
-## PREDICTED VALUE:
+### PREDICTED VALUE:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/f8593cd6-d674-457d-becd-ce0e5b4b0cd4)
-## DECISION TREE:
+### DECISION TREE:
 ![image](https://github.com/gpavana/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118787343/21554b8b-5706-42b7-a4b1-dc0d7c0bdbf1)
-## Result:
+### Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
